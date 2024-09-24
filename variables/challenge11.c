@@ -10,9 +10,7 @@ int main() {
     s =lar*lon;
     printf("surface :%d",s);
     
-    
-    
-    
+
 
     return 0;
 }

@@ -11,4 +11,5 @@ int main() {
     printf("prenom:%s\n",prenom);
     printf("sexe :%s\n",sexe);
     printf("email :%s\n",email);
-   printf("age :%d\n",age); 
+   printf("age :%d\n",age); ^
+}
