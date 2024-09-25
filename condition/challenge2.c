@@ -1,31 +1,22 @@
 #include <stdio.h>
 
-int main() {
-   int n;
+
+    int main (){
+     char n;
    printf("entre  la valeur entre 1et 6:");
-   scanf("%d",&n);
+   scanf("%c",&n);
    switch(n){
        
-        case 1:printf("a");
-              break;
-        case 2:printf("e");
-              break;
-        case 3 :printf("u");
-               break;
-        case 4:printf("i");
-              break;
-        case 5:printf("o");
-             break;
+        case 'a':
+        case 'u':
+        case 'i' :
+        case 'y':
+        case 'o':
              
-        case 6:printf("y");
+        case 'e':printf(" est  un voyelle %c",n);
               break;
         default:printf("n pas un voyelle");
        }
-      
-  
-      
-       
-    
-   
+
     return 0;
 }

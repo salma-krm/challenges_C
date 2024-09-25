@@ -1,24 +1,24 @@
 #include <stdio.h>
 
 int main() {
-    int a , b,s;
-    printf("entre la v de a:");
-    scanf("%d",&a);
-    printf("entre la v de b:");
-    scanf("%d",&b);
-    if(a==b){
-        s=(a+b)*2;
-    }
-    else if(a!=b){
-        s=a+b;
-    }
-    printf("somme=%d",s);
- 
-      
-  
-      
-       
+    int N1, N2,S;
     
+   printf("entre la valeur de N1  :");
+   scanf("%d",&N1);
+   printf("entre la valeur de N2  :");
+   scanf("%d",&N2);
+   if ( N1!=N2){
+       S = N1+N2;
+   }
+   else {
+       S = (N1+ N2)*3;
+   }
+   printf("la somme est : %d",S);
    
+   
+   
+   
+    
+
     return 0;
 }

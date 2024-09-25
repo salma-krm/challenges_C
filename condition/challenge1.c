@@ -7,7 +7,7 @@ int main() {
    if(n%2==0){
        printf("paire");
    }
-   else if(n%2!=0){
+   else{
        printf("impaire");
    }
       
