@@ -1,6 +1,7 @@
-
 #include <stdio.h>
+
 int main() {
+    
     
     int n;
     int y,i;
@@ -17,16 +18,15 @@ int main() {
     i++;
     }
     return 0;
-}
-   
-    
-    
-    
-    
-   
-   
-   
-    
 
-    return 0;
+    
 }
+
+   
+    
+    
+    
+    
+   
+   
+     

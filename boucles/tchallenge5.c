@@ -4,9 +4,12 @@
     int main (){
     int n ;
     int p =1;
+    int a;
     printf("entre n ");
     scanf("%d",&n);
-    for(int i=0; i<=n ; i++){
+    printf("entre a ");
+    scanf("%d",&a);
+    for(int i=0; i<a ; i++){
         p=p*n;
     } 
     

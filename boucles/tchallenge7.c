@@ -1,22 +1,20 @@
 #include <stdio.h>
 
 
-    int main (){
-    int j;
-    int i;
-   
-    printf("entre la valeur de J");
-    scanf("%d",&j);
+int main() {
     
-
-    for(i=0; i=j; i++){
-        printf("%d",j);
-        j--;
-       
+    
+    int n, i = 0;
+    printf("entre la valeur ded n:");
+    scanf("%d",&n);
+   
+    
+    while(n>0){ 
+        printf("%d",n%10); 
+        n = n/10;
+        
+         i++;
     }
     
-    
-    
-
     return 0;
 }
