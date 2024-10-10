@@ -5,13 +5,13 @@
 char *chainedecaractere(char a[]){
     
     
-      int indice = strlen (a)-1;
+      int last = strlen (a)-1;
       char tmp;
-      for(int i=0 ; i<indice ; i++){
-          tmp = a[indice];
-          a[indice]= a[i];
+      for(int i=0 ; i<last ; i++){
+          tmp = a[last];
+          a[last]= a[i];
           a[i]=tmp;
-        indice--;
+          last--;
       }
       return a;
 }
